@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Gentium+Book+Plus:wght@700&family=Josefin+Sans:wght@500&display=swap');
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+
+  .logo-text {
+    margin-bottom: 7px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin-left: auto; /* push the menu items to the right */
+  }
+  
+  .navbar-item {
+    margin-right: 1rem;
+  }
+  .navbar-item-name {
+    margin-right: 1rem;
+    font-family: 'Audiowide', cursive;
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Gentium Book Plus', serif;
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-size: x-large;
+  }
+  
+  .navbar-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding: 30px; /* add some padding to the items */
+  }
+
+  .navbar-item a:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* change the background opacity when hovering */
+    border-radius: 0px 20px 0px 20px;
+  }
+
+  
